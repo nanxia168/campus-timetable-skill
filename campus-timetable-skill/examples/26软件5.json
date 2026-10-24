@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "calendar_name": "2026秋 26软件5 课表",
+    "school": "上海电子信息职业技术学院",
+    "term": "2026-2027学年第1学期",
+    "semester_start_date": "2026-08-31",
+    "semester_start_date_source": "calendar",
+    "assumptions": [
+      "第1周星期一取校历 2026-08-31（第2周为 09-07，勿混淆）",
+      "作息时间取自截图左侧节次表（08:30 起，第12节至 19:50）",
+      "实用英语1 原图未标教室，location 置 null，输出为'未标注'",
+      "课程性质（必修）为按课程名推断，原图无此列"
+    ],
+    "low_confidence_fields": [
+      "courses[2].teachers",
+      "courses[*].category"
+    ],
+    "day_shifts": [
+      {
+        "code": "3573",
+        "weekday": 5,
+        "week": 6,
+        "days": 1
+      }
+    ]
+  },
+  "courses": [
+    {
+      "name": "人工智能与信息技术应用基础",
+      "code": "3591",
+      "teachers": [
+        "王春平"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 1,
+          "periods": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_time": "08:30",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                4,
+                5
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                17,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "S417",
+            "campus": null,
+            "building": null,
+            "room": "S417"
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 7,
+          "periods": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_time": "08:30",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [],
+            "explicit": [
+              3
+            ]
+          },
+          "location": {
+            "raw": "ZHSXL806",
+            "campus": null,
+            "building": null,
+            "room": "ZHSXL806"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "形势与政策1",
+      "code": "2914",
+      "teachers": [
+        "李晓霞"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 1,
+          "periods": [
+            1,
+            2
+          ],
+          "start_time": "08:30",
+          "end_time": "09:50",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                13,
+                16
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "I402",
+            "campus": null,
+            "building": null,
+            "room": "I402"
+          },
+          "note": "原文：\"第1节-第2节\" | 所在格子行：第3-4行",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "实用英语1",
+      "code": "2754",
+      "teachers": null,
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 1,
+          "periods": [
+            5,
+            6
+          ],
+          "start_time": "13:00",
+          "end_time": "14:20",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                4,
+                5
+              ],
+              [
+                7,
+                15
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": null,
+            "campus": null,
+            "building": null,
+            "room": null
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 5,
+          "periods": [
+            3,
+            4
+          ],
+          "start_time": "10:05",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                7,
+                16
+              ]
+            ],
+            "explicit": [
+              3
+            ]
+          },
+          "location": {
+            "raw": null,
+            "campus": null,
+            "building": null,
+            "room": null
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 6,
+          "periods": [
+            3,
+            4
+          ],
+          "start_time": "10:05",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [],
+            "explicit": [
+              6
+            ]
+          },
+          "location": {
+            "raw": null,
+            "campus": null,
+            "building": null,
+            "room": null
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 7,
+          "periods": [
+            5,
+            6
+          ],
+          "start_time": "13:00",
+          "end_time": "14:20",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [],
+            "explicit": [
+              3
+            ]
+          },
+          "location": {
+            "raw": null,
+            "campus": null,
+            "building": null,
+            "room": null
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "Web前端基础(HTML+CSS)",
+      "code": "3586",
+      "teachers": [
+        "宋凡"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 1,
+          "periods": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_time": "17:00",
+          "end_time": "19:50",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                11,
+                14
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "ZHSXL901",
+            "campus": null,
+            "building": null,
+            "room": "ZHSXL901"
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 4,
+          "periods": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_time": "17:00",
+          "end_time": "19:50",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                6,
+                8
+              ],
+              [
+                11,
+                17
+              ]
+            ],
+            "explicit": [
+              3,
+              19
+            ]
+          },
+          "location": {
+            "raw": "ZHSXL901",
+            "campus": null,
+            "building": null,
+            "room": "ZHSXL901"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "体育与健康1",
+      "code": "2727",
+      "teachers": [
+        "吴刚"
+      ],
+      "credit": null,
+      "category": "体育",
+      "sessions": [
+        {
+          "weekday": 2,
+          "periods": [
+            3,
+            4
+          ],
+          "start_time": "10:05",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                4,
+                5
+              ],
+              [
+                7,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "健身房3",
+            "campus": null,
+            "building": null,
+            "room": "健身房3"
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 2,
+          "periods": [
+            9,
+            10
+          ],
+          "start_time": "17:00",
+          "end_time": "18:20",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [],
+            "explicit": [
+              5
+            ]
+          },
+          "location": {
+            "raw": "健身房3",
+            "campus": null,
+            "building": null,
+            "room": "健身房3"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "思想道德与法治",
+      "code": "3169",
+      "teachers": [
+        "向宏霞"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 2,
+          "periods": [
+            7,
+            8
+          ],
+          "start_time": "14:35",
+          "end_time": "15:55",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                4,
+                5
+              ],
+              [
+                7,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "I402",
+            "campus": null,
+            "building": null,
+            "room": "I402"
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 3,
+          "periods": [
+            1,
+            2
+          ],
+          "start_time": "08:30",
+          "end_time": "09:50",
+          "weeks": {
+            "type": "odd",
+            "ranges": [
+              [
+                3,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "I402",
+            "campus": null,
+            "building": null,
+            "room": "I402"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "大学语文",
+      "code": "2585",
+      "teachers": [
+        "马红莉"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 3,
+          "periods": [
+            3,
+            4
+          ],
+          "start_time": "10:05",
+          "end_time": "11:25",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                3,
+                5
+              ],
+              [
+                7,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "F211",
+            "campus": null,
+            "building": null,
+            "room": "F211"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "程序设计基础",
+      "code": "3573",
+      "teachers": [
+        "肖魁"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 3,
+          "periods": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_time": "13:00",
+          "end_time": "15:55",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                3,
+                4
+              ],
+              [
+                7,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "ZHSXL901",
+            "campus": null,
+            "building": null,
+            "room": "ZHSXL901"
+          },
+          "note": null,
+          "confidence": 0.9
+        },
+        {
+          "weekday": 5,
+          "periods": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_time": "13:00",
+          "end_time": "15:55",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [],
+            "explicit": [
+              6
+            ]
+          },
+          "location": {
+            "raw": "ZHSXL901",
+            "campus": null,
+            "building": null,
+            "room": "ZHSXL901"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "code": "2616",
+      "teachers": [
+        "范人伟"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 4,
+          "periods": [
+            1,
+            2
+          ],
+          "start_time": "08:30",
+          "end_time": "09:50",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                3,
+                4
+              ],
+              [
+                6,
+                19
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "I402",
+            "campus": null,
+            "building": null,
+            "room": "I402"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "职业生涯规划",
+      "code": "3519",
+      "teachers": [
+        "鲍传林"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 4,
+          "periods": [
+            7,
+            8
+          ],
+          "start_time": "14:35",
+          "end_time": "15:55",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                11,
+                14
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "H205",
+            "campus": null,
+            "building": null,
+            "room": "H205"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "专业讲座1",
+      "code": "2461",
+      "teachers": [
+        "杨友生"
+      ],
+      "credit": null,
+      "category": "必修",
+      "sessions": [
+        {
+          "weekday": 4,
+          "periods": [
+            11,
+            12
+          ],
+          "start_time": "18:30",
+          "end_time": "19:50",
+          "weeks": {
+            "type": "ranges",
+            "ranges": [
+              [
+                9,
+                10
+              ]
+            ],
+            "explicit": []
+          },
+          "location": {
+            "raw": "I403",
+            "campus": null,
+            "building": null,
+            "room": "I403"
+          },
+          "note": null,
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}
